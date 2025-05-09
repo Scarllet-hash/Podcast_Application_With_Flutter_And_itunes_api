@@ -26,18 +26,12 @@ This project is based on Flutter, an open-source framework from Google, and uses
    git clone https://github.com/Scarllet-hash/Podcast_Application_With_Flutter_And_itunes_api.git
 Navigate to the project directory:
 
-bash
-Copy
 cd Podcast_Application_With_Flutter_And_itunes_api
 Install the project dependencies:
 
-bash
-Copy
 flutter pub get
 Run the app on a simulator or a physical device:
 
-bash
-Copy
 flutter run
 You can now test the app on your device.
 
@@ -49,25 +43,6 @@ Select a category to view the episodes associated with it.
 You can listen to episodes directly in the app using the integrated podcast player.
 
 You can play/pause, skip forward/backward by 10 seconds, and see the podcast's duration.
-
-Project Structure
-Here’s the project directory structure to help you better understand the architecture:
-
-bash
-Copy
-Podcast_Application_With_Flutter_And_itunes_api/
-├── android/                  # Folder containing the Android code
-├── ios/                      # Folder containing the iOS code
-├── lib/                      # Main source code for the application
-│   ├── main.dart             # Entry point for the Flutter application
-│   └── ...                   # Other Dart files for UI and logic
-├── test/                     # Unit tests and interface tests
-├── pubspec.yaml              # Flutter configuration file and dependency management
-├── pubspec.lock              # Dependency lock file
-├── README.md                 # This README file
-└── .gitignore                # Git configuration file to ignore unnecessary files
-Important folder details:
-lib/: Contains the main logic of the app, including the user interface and data management.
 
 The main file main.dart contains the entry point for the application.
 
